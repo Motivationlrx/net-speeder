@@ -76,7 +76,7 @@ libnet_t* start_libnet(char *dev) {
 	return libnet_handler;
 }
 
-#define ARGC_NUM 3
+#define ARGC_NUM 5
 int main(int argc, char **argv) {
 	char *dev = NULL;
 	char errbuf[PCAP_ERRBUF_SIZE];
